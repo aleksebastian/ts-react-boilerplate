@@ -1,9 +1,10 @@
-export default {
-  entry: __dirname + './client/src/index.js',
+module.exports = {
+  mode: 'production',
+  entry: __dirname + '/client/src/index.js',
   module: {
     rules: [
       {
-        test: [/\.jsx$/],
+        test: [/\.jsx$|.js$/],
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -15,8 +16,8 @@ export default {
     ]
   },
   output: {
-    filename: 'checkout_bundle.js',
-    path: __dirname + '/public'
+    filename: 'bundle.js',
+    path: __dirname + '/client/dist'
   },
   devtool: 'source-map',
 };
