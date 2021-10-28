@@ -7,7 +7,7 @@ type GreetingProps = {
 
 const Greeting = (props: GreetingProps) => <p>{props.greeting}</p>;
 
-const App = () => <Greeting greeting="Hello there!" />;
+const App = () => <Greeting greeting="Hello world!" />;
 
 export default App;
 
