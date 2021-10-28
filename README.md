@@ -1,6 +1,6 @@
-# React boilerplate
+# TypeScript-React boilerplate
 
-A lightweight react boilerplate setup to get up and coding in seconds.
+A lightweight TypeScript-React boilerplate setup to get up and coding in seconds.
 
 - CSS modules are supported out of the box. A sample CSS file for the App component can be found in the src folder.
 
