@@ -6,7 +6,7 @@ A lightweight TypeScript-React boilerplate setup to get up and coding in seconds
 
 - Testing is set up with Jest and React Testing Library. A sample test file can be found in the src folder.
 
-- Webpack is setup to also output compressed production builds using brotli and gzip as a fallback.
+- Webpack is set up to output compressed production build files using brotli and gzip as a fallback along with the js build file.
 
 ## Get up and coding in seconds
 
