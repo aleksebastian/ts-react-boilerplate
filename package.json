@@ -40,6 +40,7 @@
     "webpack-dev-server": "^4.2.1"
   },
   "dependencies": {
+    "@teamsupercell/typings-for-css-modules-loader": "^2.5.1",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
     "react": "^17.0.1",

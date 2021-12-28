@@ -11,5 +11,5 @@ import App from "../App";
 test("loads and displays greeting", async () => {
   render(<App />);
 
-  expect(screen.getByText("Hello world!")).toBeInTheDocument();
+  expect(screen.getByText("Hello World!")).toBeInTheDocument();
 });
